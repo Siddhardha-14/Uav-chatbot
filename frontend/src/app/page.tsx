@@ -5,9 +5,7 @@ export default function HomePage() {
     <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
       <div className="grid gap-12 lg:grid-cols-[1.1fr_minmax(0,1fr)] lg:items-center">
         <div>
-          <p className="text-sm font-medium uppercase tracking-wide text-accent">
-            Final-year systems demo
-          </p>
+
           <h1 className="mt-3 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
             Understand UAV missions from natural language.
           </h1>

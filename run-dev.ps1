@@ -21,7 +21,7 @@ if (-not (Test-Cmd "npm")) {
 $backend = Join-Path $root "backend"
 $frontend = Join-Path $root "frontend"
 
-Write-Host "`nUAV Mission Intent Analyzer — starting servers`n" -ForegroundColor Cyan
+Write-Host "`nUAV Mission Intent Analyzer - starting servers`n" -ForegroundColor Cyan
 Write-Host "1) Backend:  http://127.0.0.1:8000  (API + /docs)" -ForegroundColor Gray
 Write-Host "2) Frontend: http://localhost:3000   (open this in Chrome or Edge)`n" -ForegroundColor Gray
 
@@ -30,7 +30,7 @@ Start-Process powershell -ArgumentList @(
     "-NoExit",
     "-NoProfile",
     "-Command",
-    "Set-Location -LiteralPath '$backend'; Write-Host 'BACKEND — keep this window open' -ForegroundColor Green; python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000"
+    "Set-Location -LiteralPath '$backend'; Write-Host 'BACKEND - keep this window open' -ForegroundColor Green; python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000"
 )
 
 Start-Sleep -Seconds 2
@@ -40,7 +40,7 @@ Start-Process powershell -ArgumentList @(
     "-NoExit",
     "-NoProfile",
     "-Command",
-    "Set-Location -LiteralPath '$frontend'; Write-Host 'FRONTEND — keep this window open' -ForegroundColor Green; npm run dev"
+    "Set-Location -LiteralPath '$frontend'; Write-Host 'FRONTEND - keep this window open' -ForegroundColor Green; npm run dev"
 )
 
 Write-Host "Waiting for Next.js to bind to port 3000..." -ForegroundColor Gray
