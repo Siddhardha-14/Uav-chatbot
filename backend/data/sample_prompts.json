@@ -1,0 +1,60 @@
+{
+  "prompts": [
+    {
+      "text": "Inspect crop stress in the north field using multispectral imaging.",
+      "domain": "Agriculture"
+    },
+    {
+      "text": "Map field boundaries and elevation for spring planting layout.",
+      "domain": "Agriculture"
+    },
+    {
+      "text": "Apply pesticide in grid pattern over orchard block B with drift monitoring.",
+      "domain": "Agriculture"
+    },
+    {
+      "text": "Assess flood damage to crops along the eastern levee after the storm.",
+      "domain": "Agriculture"
+    },
+    {
+      "text": "Perform border reconnaissance over sector 7 during night hours.",
+      "domain": "Defence / military"
+    },
+    {
+      "text": "Track a suspected vehicle convoy moving along the ridgeline road.",
+      "domain": "Defence / military"
+    },
+    {
+      "text": "Provide overwatch for friendly unit movement through the urban grid.",
+      "domain": "Defence / military"
+    },
+    {
+      "text": "Conduct area surveillance of the industrial park perimeter for 6 hours.",
+      "domain": "Surveillance"
+    },
+    {
+      "text": "Monitor crowd flow and ingress points during the stadium event.",
+      "domain": "Surveillance"
+    },
+    {
+      "text": "Loiter over the pipeline ROW to detect unauthorized ground activity.",
+      "domain": "Surveillance"
+    },
+    {
+      "text": "Search for survivors near the flooded riverbank at first light.",
+      "domain": "Rescue"
+    },
+    {
+      "text": "Thermal sweep of the collapsed structure zone for heat signatures.",
+      "domain": "Rescue"
+    },
+    {
+      "text": "Rapid disaster assessment of bridge integrity after the earthquake.",
+      "domain": "Rescue"
+    },
+    {
+      "text": "Wide-area search for missing hikers in the alpine basin west of the peak.",
+      "domain": "Rescue"
+    }
+  ]
+}
